@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+.sidebar{
+    WIDTH: 200px;
+    height: 1000vh;
+    background: red;
+}
+.mainPage {
+    padding-left: 20px;
+    background: green;
+}
+
+.container-page > .sidebar > h2,
+.container-page > .mainPage{
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+.ocultar{
+    display: none;
+}
+
+.ulBloque{
+    border-radius: 0px;
+}
+button.btn.btn-primary.btnBotonBuscar {
+    width: 120px;
+}
+
+.mainPage > .content-buscador{
+ height: 71px;
+}
+
+.card.card-content-dbz {
+    width: 85%;
+    height: 555px;
+    padding: 10px;
+}
+
+img.card-img-top.img-dbz {
+    width: 100%;
+    height: 65%;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

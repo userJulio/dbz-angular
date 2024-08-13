@@ -1,0 +1,16 @@
+.card.card-planeta {
+    height: 555px;
+    padding: 10px;
+    width: 90%;
+}
+
+img.card-img-planeta {
+    width: 100%;
+    height: 250px;
+}
+.content-habitantes{
+    height: 187px;
+}
+div.content-cards-planetas{
+    margin-top: 20px;
+}

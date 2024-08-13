@@ -1,0 +1,22 @@
+
+
+
+<div class="row content-list-cards" >
+<div class="col-md-4 col-sm-6 content-cards-planetas" *ngFor="let planeta of mostrarViewModel" >
+    <div class="card card-planeta" >
+      <img [src]="planeta.image" class="card-img-top card-img-planeta" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{planeta.name}}</h5>
+        <div class="content-habitantes">
+          <span>Habitantes:</span>
+          <p>
+            <span  *ngFor="let item of planeta.personajes">
+              {{ item.name }}
+            </span>             
+          </p>
+        </div>
+        <button class="btn btn-primary" data-target="#detalleTransformacion" >Ver Habitantes</button>
+      </div>
+    </div>
+  </div>
+</div>
